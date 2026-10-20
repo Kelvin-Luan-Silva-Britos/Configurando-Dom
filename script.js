@@ -48,7 +48,7 @@ function atualizarContador(){
     if (total === 0) {
         contador.textContent =  "Nenhum tarefa ainda.";
     } else {
-        contador.textContent = '${feitas} de ${total} concluída(s).';
+        contador.textContent = `${feitas} de ${total} concluída(s).`;
     }
 }
 
